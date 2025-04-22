@@ -1,0 +1,681 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap');
+
+.div__header{
+    display: flex;
+    justify-content: center;
+}
+
+.div__header-h{
+    padding-right: 100px;
+    width: 200px;
+}
+
+.div__header-p{
+    padding-top: 15px;
+    padding-right: 100px;
+}
+
+.div__header-img{
+    width: 20px;
+    height: 20px;
+    padding-left: 100px ;
+    padding-right: 10px;
+    padding-top: 30px;
+}
+
+.div__header-img2{
+    width: 20px;
+    height: 20px;
+    padding-top: 30px;
+}
+
+body{
+    font-family:'Readex Pro', sans-serif;
+}
+
+.main{
+    height: 1500px;
+}
+
+.div__main-header{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div__main-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.div__main-1_1{
+    display: flex;  
+    flex-direction: column;
+    height: 700px;
+    padding-right: 50px;
+}
+
+.div__main-1_2{
+    display: flex;  
+    flex-direction: row;
+    height: 500px;
+}
+
+.div__main-1_laptop{
+    width: 400px;
+    height: 330px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.div__main-1_watch{
+    width: 400px;
+    height: 330px;
+    margin-top: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.div__main-1_phone{
+    height: 700px;
+    margin-right: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.div__main-1_tablet{
+    height: 700px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.div__main-1_phone-img{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.div__main-1_tablet-img{
+    padding-top: 100px;
+}
+
+.div__main-1_laptop-img{
+    width: 80%;
+}
+
+.div__main-1-laptops_p1{
+    padding-left: 180px;
+    margin: 0;
+    font-size: 20px;
+}
+
+.div__main-1-laptops_p2{
+    padding-left: 150px;
+    margin: 0;
+    font-size: 30px;
+}
+
+.div__main-1_p1{
+    padding-left: 180px;
+    margin: 0;
+    font-size: 20px;
+}
+
+.div__main-1-watch_p2{
+    padding-left: 170px;
+    margin: 0;
+    font-size: 30px;
+}
+
+.div__main-1_p2{
+    padding-left: 140px;
+    margin: 0;
+    font-size: 30px;
+}
+
+.div__main-1_p20{
+    padding-left: 215px;
+    margin: 0;
+    font-size: 30px;
+}
+
+.div__main-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 680px;
+    margin-top: 50px;
+}
+
+.div__main-2_2{
+    display: flex;
+    flex-direction: row;
+}
+
+.div__main-2_1-1{
+    display: flex;
+    flex-direction: row;
+}
+
+.div__main-2_1-cap{
+    height: 310px;
+    width: 350px;
+    margin-right: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 50px;
+}
+
+.div__main-1-cap_p2{
+    padding-left: 140px;
+    margin: 0;
+    font-size: 30px;
+}
+
+.div__main-1-cap_p1{
+    padding-left: 160px;
+    margin: 0;
+    font-size: 20px;
+}
+
+.div__main-2_1-bag{
+    height: 350px;
+    margin-right: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 50px;
+}
+
+.div__main-1-bag_p2{
+    padding-left: 140px;
+    margin: 0;
+    font-size: 30px;
+}
+
+.div__main-1-bag_p1{
+    padding-left: 160px;
+    margin: 0;
+    font-size: 20px;
+}
+
+.div__main-2_1-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.div__main-2_2-shoes{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    height: 710px;
+    width: 350px;
+    margin-left: 50px;
+}
+
+.div__main-1-shoes_p1{
+    padding-left: 155px;
+    margin: 0;
+    font-size: 20px;
+}
+
+.div__main-1-shoes_p2{
+    padding-left: 140px;
+    margin: 0;
+    font-size: 30px;
+}
+
+.div__main-2_2-clothes{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    height: 710px;
+    width: 310px;
+}
+
+.div__main-1-clothes_p1{
+    padding-left: 120px;
+    margin: 0;
+    font-size: 20px;
+}
+
+.div__main-1-clothes_p2{
+    padding-left: 95px;
+    margin: 0;
+    font-size: 30px;
+}
+
+
+.div__main-2_2-img{
+    height: 47%;
+    width: 90%;
+    padding-left: 15px;
+}
+
+.div__main-1-2_p1{
+    padding-left: 220px;
+    margin: 0;
+    font-size: 10px;
+}
+
+.div__main-1-2_p2{
+    padding-left: 210px;
+    margin: 0;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.div__footer-1{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding-left: 50px;
+}
+
+.div__footer-2{
+    width: 230px;
+    padding-right: 30px;
+}
+
+.div__footer-3{
+    width: 200px;
+    padding-right: 20px;
+}
+
+.div__footer-4{
+    width: 200px;
+}
+
+.div__footer-5{
+    padding-right: 50px;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .main{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .header{
+        width: 992px;
+    }    
+    .div__header-h{
+        padding-right: 30px;
+    }
+    .div__header-p{
+        padding-right: 20px;
+    }
+    .div__main-1{
+        flex-direction: column;
+    }
+    .div__main-1_1{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .div__main-1_watch{
+        margin-left: 50px;
+        margin-top: 0;
+    }
+    .div__main-1_2{
+        justify-content: center;
+        margin-top: -350px;
+    }
+    .div__main-1_phone{
+        margin-right: 50px;
+        margin-left: -50px;
+        width: 400px;
+        height: 600px;
+    }
+    .div__main-1_tablet{
+        height: 600px;
+        width: 400px;
+    }
+    .div__main-1_phone-img{
+        padding-left: 52px;
+    }
+    .div__main-1_tablet-img{
+        padding-left: 50px;
+    }
+    .div__main-2{
+        margin-top: 150px;
+        justify-content: center;
+        width: 1000px;
+        margin-left: 38px;
+    }
+    .div__main-2_2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer{
+        margin-top: 800px;
+        width: 940px;
+    }
+    .div__main-2_2-shoes{
+        /* margin-top: 540px; */
+        transform: rotate(90deg);
+        margin-left: -235px;
+        height: 850px;
+        width: 420px;
+        margin-top: -170px;
+    }
+    .div__main-2_2-clothes{
+        width: 400px;
+        height: 710px;
+    }
+    .div__main-2_1-cap{
+        width: 400px;
+    }
+    .div__main-2_1-bag{
+        width: 400px;
+    }
+    .div__main-2_2-img{
+        height: 45%;
+        width: 75%;
+        padding-left: 50px;
+    }
+    .div__main-1-shoes_p2{
+        transform: rotate(-90deg);
+        padding-top: 20px;
+        padding-left: 760px;
+    }
+    .div__main-1-shoes_p1{
+        transform: rotate(-90deg);
+        padding-top: 90px;
+        padding-left: 620px;
+    }
+    .div__footer_h1{
+        font-size: large;
+    }
+    .div__footer_p{
+        font-size: large;
+    }
+    .div__footer-1{
+        margin-left: -10px;
+        width: 180px;
+        margin-right: 40px;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .header{
+        justify-content: center;
+        justify-content: start;
+    }    
+    .div__header-h{
+        padding-right: 30px;
+    }
+    .div__header-p{
+        padding-right: 20px;
+        padding-right: 30px;
+    }
+    .div__header-img{
+        padding-left: 60px;
+    }
+    .div__main-1{
+        flex-direction: column;
+        margin-left: 35px;
+    }
+    .div__main-1_1{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .div__main-1_watch{
+        margin-left: 30px;
+        margin-top: 0;
+        width: 310px;
+    }
+    .div__main-1_laptop{
+        margin-top: 0;
+        width: 300px;
+        margin-right: 0px;
+    }
+    .div__main-1_2{
+        justify-content: center;
+        margin-top: -350px;
+    }
+    .div__main-1_phone{
+        margin-right: 30px;
+        margin-left: -50px;
+        height: 600px;
+        width: 302px;
+    }
+    .div__main-1_phone-img{
+        padding-left: 6px;
+    }
+    .div__main-1_tablet{
+        height: 600px;
+    }
+    .div__main-2{
+        margin-top: 120px;
+        justify-content: center;
+        margin-left: -160px;
+    }
+    .div__main-2_1{
+        margin-right: -20px;
+    }
+    .footer{
+        margin-top: 800px;
+    }
+    .div__main-2_2-shoes{
+        margin-top: 600px;
+        transform: rotate(90deg);
+        margin-left: -490px;
+        height: 580px;
+        width: 340px;
+        padding-top: 60px;
+    }
+    .div__main-2_2-clothes{
+        width: 310px;
+        height: 710px;
+    }
+    .div__main-2_1-cap{
+        width: 300px;
+    }
+    .div__main-2_1-bag{
+        width: 300px;
+    }
+    .div__main-2_2-img{
+        height: 45%;
+        width: 75%;
+        padding-left: 50px;
+    }
+    .div__main-1-shoes_p2{
+        transform: rotate(-90deg);
+        padding-top: 20px;
+        padding-left: 580px;
+    }
+    .div__main-1-shoes_p1{
+        transform: rotate(-90deg);
+        padding-top: 50px;
+        padding-left: 480px;
+    }
+    .div__footer_h1{
+        font-size: large;
+    }
+    .div__footer_p{
+        font-size: large;
+    }
+    .div__main-2_2-shoes-img{
+        width: 70%;
+        padding-top: -55px;   
+    }
+    .div__main-2_2-img{
+        height: 310px;
+        width: 80%;
+        padding-left: 35px;
+    }
+    .div__main-1-laptops_p1{
+        padding-top: 75px;
+    }
+    .div__footer-1{
+        width: 250px;
+    }
+    .div__footer-2{
+        padding-left: 40px;
+    }
+    .div__footer-4{
+        padding-right: 20px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .header{
+        justify-content: center;
+        justify-content: start;
+    }    
+    .div__header-h{
+        padding-right: 30px;
+    }
+    .div__header-p{
+        padding-right: 20px;
+        padding-right: 30px;
+    }
+    .div__header-img{
+        padding-left: 60px;
+    }
+    .div__main-1{
+        flex-direction: column;
+        margin-left: 35px;
+    }
+    .div__main-1_1{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .div__main-1_watch{
+        margin-left: 30px;
+        margin-top: 0;
+        width: 310px;
+    }
+    .div__main-1_laptop{
+        margin-top: 0;
+        width: 300px;
+        margin-right: 0px;
+    }
+    .div__main-1_2{
+        justify-content: center;
+        margin-top: -350px;
+    }
+    .div__main-1_phone{
+        margin-right: 30px;
+        margin-left: -50px;
+        height: 600px;
+        width: 302px;
+    }
+    .div__main-1_phone-img{
+        padding-left: 6px;
+    }
+    .div__main-1_tablet{
+        height: 600px;
+    }
+    .div__main-2{
+        margin-top: 120px;
+        justify-content: center;
+        margin-left: -160px;
+    }
+    .div__main-2_1{
+        margin-right: -20px;
+    }
+    .footer{
+        margin-top: 800px;
+    }
+    .div__main-2_2-shoes{
+        margin-top: 600px;
+        transform: rotate(90deg);
+        margin-left: -490px;
+        height: 580px;
+        width: 340px;
+        padding-top: 60px;
+    }
+    .div__main-2_2-clothes{
+        width: 310px;
+        height: 710px;
+    }
+    .div__main-2_1-cap{
+        width: 300px;
+    }
+    .div__main-2_1-bag{
+        width: 300px;
+    }
+    .div__main-2_2-img{
+        height: 45%;
+        width: 75%;
+        padding-left: 50px;
+    }
+    .div__main-1-shoes_p2{
+        transform: rotate(-90deg);
+        padding-top: 20px;
+        padding-left: 580px;
+    }
+    .div__main-1-shoes_p1{
+        transform: rotate(-90deg);
+        padding-top: 50px;
+        padding-left: 480px;
+    }
+    .div__footer_h1{
+        font-size: large;
+    }
+    .div__footer_p{
+        font-size: large;
+    }
+    .div__main-2_2-shoes-img{
+        width: 70%;
+        padding-top: -55px;   
+    }
+    .div__main-2_2-img{
+        height: 310px;
+        width: 80%;
+        padding-left: 35px;
+    }
+    .div__main-1-laptops_p1{
+        padding-top: 75px;
+    }
+    .div__footer-1{
+        width: 250px;
+    }
+    .div__footer-2{
+        padding-left: 40px;
+    }
+    .div__footer-4{
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .div__header{
+        display: flex;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        width: 700px;
+    }
+    .div__main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .div__main-2{
+        margin-left: 35px;
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+        width: 700px;
+    }
+    .div__main-h{
+        font-size: 30px;
+    }
+    .div__main-header{
+        width: 700px;
+        justify-content: center;
+    }
+    .div__footer-1{
+        width: 250px;
+    }
+    .div__footer-2{
+        padding-left: 30px;
+    }
+    .div__footer-3{
+        padding-right:  30px;
+    }
+    .div__footer-4{
+        padding-right: 30px;
+    }
+}
