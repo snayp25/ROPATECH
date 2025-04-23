@@ -391,13 +391,13 @@ body{
         display: flex;
         flex-direction: row;
         height: 380px;
-        justify-content: center;
         margin-left: 50px;
+        margin: auto;
     }
     .div__main-1{
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        margin: auto;
     }
     .div__main-1_watch{
         margin: 0;
@@ -413,8 +413,8 @@ body{
     .div__main-1_2{
         display: flex;
         height: 600px;
-        width: 800px;
-        justify-content: center;
+        width: 706px;
+        margin: auto;
     }
     .div__main-1_phone{
         height: 600px;
@@ -432,6 +432,9 @@ body{
         display: flex;
         justify-content: center;
         height: 1200px;
+        width: 700px;
+        margin: auto;
+        margin-top: 50px;
     }
     .div__main-2_2{
         display: flex;
@@ -459,10 +462,8 @@ body{
         padding-top: 30px;
         padding-left: 550px;
     }
-    .div__main-2_1{
-        margin-left: 50px;
-    }
     .footer{
+        margin: auto;
         margin-top: 800px;
         font-size: x-small;
     }
